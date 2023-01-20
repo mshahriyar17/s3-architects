@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* Header and navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 120px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    color: #424242;;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.nav-title {
+
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* banner styles */
+.banner {
+    text-align: center;
+    margin: 0px 200px;
+    display: flex;
+}
+
+.banner-title1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+.banner-title2 {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 5px 5px;
+}
+.banner-description{
+    font-weight: 400;
+    color: #727272;
+}
+.btn-primary{
+    color: white;
+    background-color:rgba(255, 144, 14, 1);
+    border: none;
+    height: 64px;
+    width: 180px;
+    border-radius: 8px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+.img{
+    width: 740px;
+    height: 350px;
+    margin: 50px 50px;
+}
+/* Our Features section */
+.img-container{
+    display: flex;
+    width: 171px;
+    height: 171px;
+    margin-top: 85px;
+    margin-left: 150px;
+    gap: 24px ;
+}
+.img-container2{
+    display: flex;
+    width: 171px;
+    height: 171px;
+    margin-top: 24px;
+    margin-left: 150px;
+    gap: 24px ;
+}
+.features-title{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    width: 468px;
+    height: 106px;
+}
+.text-sub-primary{
+    font-weight: 1000;
+    font-size: 45px;
+    color: #131313;
+}
+.text-primary{
+    font-size: 1000 ;
+    font-weight: 45px;
+    color: #FF900E;
+}
+.our-features{
+    position: absolute;
+}
+.features{
+    width: 537px;
+    height: 304px;
+    margin-left: 600px;
+    left: 900px;
+    right: 200px;
+}
+.features-description{
+    color:  rgba(114, 114, 114, 1);
+    width: 537px;
+    height: 78px;
+    margin-top: 24px;
+}
+.explore-more-btn{
+    margin-left: 10px;
+    width: 120px;
+    height: 50px;
+}
+
+/* third section */
+.title{
+    width: 468px;
+    height: 106px;
+    color: #131313;
+    font-size: 45px;
+}
+
+footer{
+    background-color: antiquewhite;
+}
+
+.footer-text{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 240px;
+    top: 4444px;
+    
+}
+
+
